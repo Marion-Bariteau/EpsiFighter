@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1585318190 source:c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\codeepsifighter\src\joueur.cpp
+	"Joueur.h"
+
+1585318190 c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\codeepsifighter\include\joueur.h
+
+1585319173 source:c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\codeepsifighter\src\potion.cpp
+	"Potion.h"
+
+1585318267 c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\codeepsifighter\include\potion.h
+	<string>
+	<iostream>
+
+1585319201 source:c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\codeepsifighter\src\fighter.cpp
+	"Fighter.h"
+	<string>
+	<iostream>
+
+1585319189 c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\codeepsifighter\include\fighter.h
+	<string>
+	<iostream>
+
