@@ -1,4 +1,5 @@
 #include "Joueur.h"
+#include <vector>
 #include <string>
 #include <iostream>
 using namespace std;
@@ -23,4 +24,14 @@ string Joueur::getNom()
 void Joueur::setNom(string nom)
 {
     this->nom=nom;
+}
+
+void Joueur::stockPotion(Potion* potion)
+{
+
+}
+
+void Joueur::afficher()
+{
+
 }

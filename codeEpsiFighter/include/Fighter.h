@@ -8,7 +8,7 @@ using namespace std;
 class Fighter
 {
     public:
-        Fighter(string nom, int attaque, int defense);
+        Fighter(string nom, int attaque, int defense, int hpMax);
         virtual ~Fighter();
 
         string getNom();
@@ -19,9 +19,11 @@ class Fighter
         void setDefense(int defense);
         int getHp();
         void setHp(int hp);
+        int getHpMax();
+        void setHpMax(int hpMax);
 
-        void donnerUnCoup(Fighter* cible);
-        void subirDegats (int D);
+        void frapper(Fighter* cible);
+        void encaisser(int degats);
         void afficher();
 
 
@@ -32,6 +34,7 @@ class Fighter
         int attaque;
         int defense;
         int hp;
+        int hpMax;
 
 };
 

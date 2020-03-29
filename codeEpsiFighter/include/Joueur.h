@@ -1,5 +1,8 @@
+#include "Potion.h"
+
 #ifndef JOUEUR_H
 #define JOUEUR_H
+#include <vector>
 #include <string>
 #include <iostream>
 using namespace std;
@@ -13,6 +16,9 @@ class Joueur
 
         string getNom();
         void setNom(string nom);
+
+        void stockPotion(Potion* potion);
+        void afficher();
 
     protected:
 

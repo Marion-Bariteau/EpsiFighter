@@ -4,13 +4,14 @@
 using namespace std;
 
 
-Fighter::Fighter(string nom, int attaque, int defense)
+Fighter::Fighter(string nom, int attaque, int defense, int hpMax)
 {
     //ctor
     this->nom=nom;
     this->attaque=attaque;
     this->defense=defense;
-    this->hp=100;
+    this->hpMax=hpMax;
+    this->hp=this->hpMax;
 }
 
 Fighter::~Fighter()
@@ -53,6 +54,16 @@ int Fighter::getHp()
     return this->hp;
 }
 
+int Fighter::getHpMax()
+{
+    return this->hpMax;
+}
+
+void Fighter::setHpMax(int hpMax)
+{
+    this->hpMax=hpMax;
+}
+
 void Fighter::setHp(int hp)
 {
     this->hp=hp;
@@ -63,12 +74,12 @@ void Fighter::afficher()
     cout<<this->nom<<" ("<<this->attaque<<"/"<<this->defense<<") ["<<this->hp<<"]"<<endl;
 }
 
-void Fighter::donnerUnCoup(Fighter* cible)
+void Fighter::frapper(Fighter* cible)
 {
-    cible->subirDegats(this->attaque);
+    cible->encaisser(this->attaque);
 }
 
-void Fighter::subirDegats(int degats)
+void Fighter::encaisser(int degats)
 {
     degats-=degats*this->defense/100;
     this->hp-=degats;

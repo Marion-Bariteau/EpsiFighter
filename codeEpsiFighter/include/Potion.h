@@ -1,3 +1,6 @@
+#include "Fighter.h"
+
+#define FIGHTER_H
 #ifndef POTION_H
 #define POTION_H
 #include <string>
@@ -5,10 +8,10 @@
 using namespace std;
 
 
-class Potion
+class Potion : public Fighter
 {
     public:
-        Potion(int type, int couleur);
+        Potion(int type);
         virtual ~Potion();
 
         int getType();
