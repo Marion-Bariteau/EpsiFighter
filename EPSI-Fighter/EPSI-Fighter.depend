@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1586163166 source:c:\users\panza\desktop\cours\codeblocks\c++ bouchet\live cours c++ bouchet\main.cpp
+	<iostream>
+	<string>
+	"Eleve.h"
+	"Arene.h"
+	<cstdlib>
+
+1586158691 c:\users\panza\desktop\cours\codeblocks\c++ bouchet\live cours c++ bouchet\include\eleve.h
+	<string>
+	<iostream>
+	<cstdlib>
+
+1586157937 source:c:\users\panza\desktop\cours\codeblocks\c++ bouchet\live cours c++ bouchet\src\eleve.cpp
+	"Eleve.h"
+	<string>
+	<iostream>
+	<cstdlib>
+
+1586160769 source:c:\users\panza\desktop\cours\codeblocks\c++ bouchet\live cours c++ bouchet\src\arene.cpp
+	"Arene.h"
+	<cstdlib>
+
+1586160235 c:\users\panza\desktop\cours\codeblocks\c++ bouchet\live cours c++ bouchet\include\arene.h
+	<string>
+	<iostream>
+	<cstdlib>
+	"Eleve.h"
+
+1586202144 source:c:\users\panza\desktop\cours\codeblocks\c++ bouchet\epsi-fighter\src\eleve.cpp
+	"Eleve.h"
+	<string>
+	<iostream>
+	<cstdlib>
+
+1586186495 c:\users\panza\desktop\cours\codeblocks\c++ bouchet\epsi-fighter\include\eleve.h
+	<string>
+	<iostream>
+	<cstdlib>
+
+1586184645 source:c:\users\panza\desktop\cours\codeblocks\c++ bouchet\epsi-fighter\src\arene.cpp
+	"Arene.h"
+	<cstdlib>
+
+1586183796 c:\users\panza\desktop\cours\codeblocks\c++ bouchet\epsi-fighter\include\arene.h
+	<string>
+	<iostream>
+	<cstdlib>
+	"Eleve.h"
+
+1586202132 source:c:\users\panza\desktop\cours\codeblocks\c++ bouchet\epsi-fighter\main.cpp
+	<iostream>
+	<string>
+	"Eleve.h"
+	"Arene.h"
+	<cstdlib>
+	<ctime>
+
