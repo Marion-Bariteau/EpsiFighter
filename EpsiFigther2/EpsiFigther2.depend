@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1586184535 source:c:\users\mario\onedrive\documents\cours\c c++ braux\c++\epsifigther2\src\arme.cpp
+	"Arme.h"
+	<string>
+	<iostream>
+
+1586183882 c:\users\mario\onedrive\documents\cours\c c++ braux\c++\epsifigther2\include\arme.h
+	<string>
+	<vector>
+
+1586201700 source:c:\users\mario\onedrive\documents\cours\c c++ braux\c++\epsifigther2\src\combattan.cpp
+	"combattan.h"
+	"joueurs.h"
+	<string>
+	<iostream>
+	<vector>
+
+1586205608 c:\users\mario\onedrive\documents\cours\c c++ braux\c++\epsifigther2\include\combattan.h
+	"Arme.h"
+	<string>
+	<vector>
+
+1586202577 source:c:\users\mario\onedrive\documents\cours\c c++ braux\c++\epsifigther2\main.cpp
+	<iostream>
+	"joueurs.h"
+	"combattan.h"
+	"Arme.h"
+	<string>
+	<vector>
+	<cstdlib>
+	<ctime>
+	<windows.h>
+	<algorithm>
+
+1586204408 c:\users\mario\onedrive\documents\cours\c c++ braux\c++\epsifigther2\include\joueurs.h
+	<string>
+	<vector>
+	"combattan.h"
+
+1586201679 source:c:\users\mario\onedrive\documents\cours\c c++ braux\c++\epsifigther2\src\joueurs.cpp
+	"joueurs.h"
+	"combattan.h"
+	<iostream>
+	<string>
+	<vector>
+	<cstdlib>
+	<ctime>
+	<windows.h>
+	<algorithm>
+	<iomanip>
+
+1586203179 source:c:\users\mario\onedrive\documents\cours\c c++ braux\c++\epsifigther2\src\combat.cpp
+	"Combat.h"
+
+1586191392 c:\users\mario\onedrive\documents\cours\c c++ braux\c++\epsifigther2\include\combat.h
+
+1586203401 source:c:\users\mario\onedrive\documents\cours\c c++ braux\c++\epsifigther2\src\arene.cpp
+	"Arene.h"
+
+1586203311 c:\users\mario\onedrive\documents\cours\c c++ braux\c++\epsifigther2\include\arene.h
+
