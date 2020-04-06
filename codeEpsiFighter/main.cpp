@@ -10,61 +10,34 @@
 using namespace std;
 
 
-HANDLE hstdout;
-
-#define BLEU 9
-#define BLANC 15
-#define ROUGE 12
-#define VERT 10
-
-void setCouleur(int couleur) {
-    SetConsoleTextAttribute(hstdout, couleur);
-}
-
-void log(string text, int couleur = BLANC) {
-    setCouleur(couleur);
-    cout << text;
-}
-
-void logln(string text, int couleur = BLANC) {
-    log(text + "\n", couleur);
-}
-
-
 int main()
 {
-    Fighter* Braux=new Fighter("Bro", 25, 10, 100);
-    Fighter* Reinold=new Fighter("Kheynold", 20, 20, 120);
-    Fighter* Cheramy=new Fighter("Cherami", 15, 15, 110);
-    Fighter* Bouchet=new Fighter("Boucher", 20, 15, 115);
-    Fighter* Cadot=new Fighter("Cadeau", 10, 40, 90);
-    Fighter* Romeuf=new Fighter("Rohmeuf", 15, 20, 110);
-    Fighter* Michalet=new Fighter("Mi-chalet", 15, 15, 120);
-    Fighter* Ferronniere=new Fighter("Fereaunniere", 20, 10, 115);
-    Fighter* Vallee=new Fighter("Vallee", 10, 20, 100);
-    Fighter* SurzurDeLobel=new Fighter("Surzur de l'eau belle", 15, 10, 110);
+    //creation joueur
+    Joueur* Joueur1=new Joueur();
+    cout<<"Quel est le nom du joueur 1 ?"<<endl;
+    Joueur1->demande();
+    cout<<"Le joueur 1 s'appelle ";
+    Joueur1->afficher();
+    Joueur* Joueur2=new Joueur();
+    cout<<"\nQuel est le nom du joueur 2 ?"<<endl;
+    Joueur2->demande();
+    cout<<"Le joueur 2 s'appelle ";
+    Joueur2->afficher();
 
-    Braux->afficher();
-    Reinold->afficher();
-    Cheramy->afficher();
-    Bouchet->afficher();
-    Cadot->afficher();
-    Romeuf->afficher();
-    Michalet->afficher();
-    Ferronniere->afficher();
-    Vallee->afficher();
-    SurzurDeLobel->afficher();
+    //selection team
+    cout<<"\nA toi de choisir : "<<Joueur1->getNom()<<"\n"<<endl;
+    Joueur1->choixFighters();
+    cout<<"\nA toi de choisir : "<<Joueur2->getNom()<<"\n"<<endl;
+    Joueur2->choixFighters();
 
-    delete Braux;
-    delete Reinold;
-    delete Cheramy;
-    delete Bouchet;
-    delete Cadot;
-    delete Romeuf;
-    delete Michalet;
-    delete Ferronniere;
-    delete Vallee;
-    delete SurzurDeLobel;
+    //selection potion
+    cout<<"\n"<<Joueur1->getNom()<<" choisi ta potion !"<<endl;
+    Joueur1->recupPotion();
+    cout<<"\n"<<Joueur2->getNom()<<" choisi ta potion !"<<endl;
+    Joueur2->recupPotion();
+
+    delete Joueur1;
+    delete Joueur2;
 
     return 0;
 }

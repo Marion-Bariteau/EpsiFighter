@@ -1,5 +1,5 @@
 #include "Potion.h"
-
+#include "Fighter.h"
 #ifndef JOUEUR_H
 #define JOUEUR_H
 #include <vector>
@@ -11,20 +11,23 @@ using namespace std;
 class Joueur
 {
     public:
-        Joueur(string nom);
+        Joueur();
         virtual ~Joueur();
 
         string getNom();
         void setNom(string nom);
 
-        void stockPotion(Potion* potion);
         void afficher();
+        void demande();
+        void choixFighters();
+        void recupPotion();
 
     protected:
 
     private:
         string nom;
-        vector<Joueur*> inventaire;
+        vector<Fighter*> team;
+        vector<Potion*> inventaire;
 };
 
 #endif // JOUEUR_H

@@ -81,6 +81,9 @@ void Fighter::frapper(Fighter* cible)
 
 void Fighter::encaisser(int degats)
 {
-    degats-=degats*this->defense/100;
-    this->hp-=degats;
+    if(this->shield==0)
+    {
+        degats-=degats*this->defense/100;
+        this->hp-=degats;
+    }
 }

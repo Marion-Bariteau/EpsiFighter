@@ -1,14 +1,12 @@
-#include "Fighter.h"
-
-#define FIGHTER_H
 #ifndef POTION_H
 #define POTION_H
+#include <vector>
 #include <string>
 #include <iostream>
 using namespace std;
 
 
-class Potion : public Fighter
+class Potion
 {
     public:
         Potion(int type);
@@ -16,10 +14,7 @@ class Potion : public Fighter
 
         int getType();
         void setType(int type);
-        int getCouleur();
-        void setCouleur(int couleur);
 
-        Potion* recupPotion(int type);
         void usePotion(int type);
         void afficher();
 
@@ -27,7 +22,6 @@ class Potion : public Fighter
 
     private:
         int type;
-        int couleur;
 };
 
 #endif // POTION_H
