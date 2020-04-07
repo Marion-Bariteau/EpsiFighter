@@ -1,0 +1,124 @@
+# depslib dependency file v1.0
+1585318190 source:c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\codeepsifighter\src\joueur.cpp
+	"Joueur.h"
+
+1585318190 c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\codeepsifighter\include\joueur.h
+
+1585319173 source:c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\codeepsifighter\src\potion.cpp
+	"Potion.h"
+
+1585318267 c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\codeepsifighter\include\potion.h
+	<string>
+	<iostream>
+
+1585319201 source:c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\codeepsifighter\src\fighter.cpp
+	"Fighter.h"
+	<string>
+	<iostream>
+
+1585319189 c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\codeepsifighter\include\fighter.h
+	<string>
+	<iostream>
+
+1586187452 source:c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\epsifighter\codeepsifighter\main.cpp
+	"Joueur.h"
+	"Fighter.h"
+	"Potion.h"
+	<cstdlib>
+	<windows.h>
+	<iostream>
+	<vector>
+	<string>
+
+1586182993 c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\epsifighter\codeepsifighter\include\joueur.h
+	"Potion.h"
+	"Fighter.h"
+	<vector>
+	<string>
+	<iostream>
+
+1586175663 c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\epsifighter\codeepsifighter\include\fighter.h
+	<string>
+	<iostream>
+
+1586187046 c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\epsifighter\codeepsifighter\include\potion.h
+	<vector>
+	<string>
+	<iostream>
+
+1586179225 source:c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\epsifighter\codeepsifighter\src\fighter.cpp
+	"Fighter.h"
+	<string>
+	<iostream>
+
+1586187032 source:c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\epsifighter\codeepsifighter\src\potion.cpp
+	"Potion.h"
+	"Fighter.h"
+	<string>
+	<iostream>
+	<cstdlib>
+	<ctime>
+
+1586187399 source:c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\epsifighter\codeepsifighter\src\joueur.cpp
+	"Joueur.h"
+	"Potion.h"
+	"Fighter.h"
+	<vector>
+	<string>
+	<iostream>
+
+1586187792 source:c:\users\panza\desktop\nouveau dossier\epsifighter-matteo\codeepsifighter\main.cpp
+	"Joueur.h"
+	"Fighter.h"
+	"Potion.h"
+	<cstdlib>
+	<windows.h>
+	<iostream>
+	<vector>
+	<string>
+
+1586260983 c:\users\panza\desktop\nouveau dossier\epsifighter-matteo\codeepsifighter\include\joueur.h
+	"Potion.h"
+	"Fighter.h"
+	<vector>
+	<string>
+	<iostream>
+
+1586187792 c:\users\panza\desktop\nouveau dossier\epsifighter-matteo\codeepsifighter\include\potion.h
+	<vector>
+	<string>
+	<iostream>
+
+1586257397 c:\users\panza\desktop\nouveau dossier\epsifighter-matteo\codeepsifighter\include\fighter.h
+	<string>
+	<iostream>
+	<vector>
+
+1586258364 source:c:\users\panza\desktop\nouveau dossier\epsifighter-matteo\codeepsifighter\src\fighter.cpp
+	"Fighter.h"
+	"Joueur.h"
+	<string>
+	<iostream>
+	<vector>
+
+1586259092 source:c:\users\panza\desktop\nouveau dossier\epsifighter-matteo\codeepsifighter\src\joueur.cpp
+	"Joueur.h"
+	"Potion.h"
+	"Fighter.h"
+	<vector>
+	<string>
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<windows.h>
+	<algorithm>
+	<iomanip>
+
+1586187792 source:c:\users\panza\desktop\nouveau dossier\epsifighter-matteo\codeepsifighter\src\potion.cpp
+	"Potion.h"
+	"Fighter.h"
+	<string>
+	<iostream>
+	<cstdlib>
+	<ctime>
+
