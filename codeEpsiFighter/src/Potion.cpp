@@ -5,7 +5,7 @@
 #include <cstdlib>
 #include <ctime>
 using namespace std;
-
+/*
 Potion::Potion(int type)
 {
     //ctor
@@ -27,55 +27,32 @@ void Potion::setType(int type)
     this->type=type;
 }
 
-/*Potion* Potion::recupPotion(int type)
+void Potion::usePotion(int type, Fighter* user)
 {
-    srand(time(NULL)); //initialisation de rand
-
-    this->type=(rand()%4)+1;
-
-    switch(this->type)
-        {
-            case 1 : Potion* potVie=new Potion(this->type); inventaire.push_back(potVie); cout<<"Tu as obtenu une potion de vie !"<<endl; break;
-            case 2 : Potion* potShield=new Potion(this->type); inventaire.push_back(potShield); cout<<"Tu as obtenu une potion de shield !"<<endl; break;
-            case 3 : Potion* potAtt=new Potion(this->type); inventaire.push_back(potAtt); cout<<"Tu as obtenu une potion d'attaque !"<<endl; break;
-            case 4 : Potion* potDef=new Potion(this->type); inventaire.push_back(potDef); cout<<"Tu as obtenu une potion de defense !"<<endl; break;
-            default : cout<<"Potion invalide"<<endl; rep=0; break;
-        }
-    return potion;
-}*/
-
-/*void Potion::usePotion(int type, Fighter* frappe, Fighter* cible)
-{
-     //Type 0 : 20% de vie supplémentaire
-    if(type==1)
+    //Type 0 : 20% de vie supplémentaire
+    if(type==0)
     {
-        int hp;
-
-        hp=cible->getHp()+0,2*cible->getHpMax();
-        setHp(hp);
+        user->getHp()=user->getHp()+0,2*user->getHpMax();
     }
 
     //Type 1 : shield (annule entièrement les dégâts subit pour un tour)
-    if(type==2)
+    if(type==1)
     {
-        setShield(1);
+        user->setShield(1);
     }
 
     //Type 2 : attaque augmentée de 10% au prochain coup
-    if(type==3)
+    if(type==2)
     {
-        int degats;
-
-        degats=frappe->getAttaque()+0,1*frappe->getAttaque();
-
+        user->setAtt(1);
     }
 
     //Type 3 : défense augmentée de 10% aux prochains dégâts
-    if(type==4)
+    if(type==3)
     {
-
+        user->setDef(1);
     }
-}*/
+}
 
 void Potion::afficher()
 {
@@ -97,3 +74,4 @@ void Potion::afficher()
         cout<<"Defense augmentee de 10% aux prochains degats"<<endl;
     }
 }
+*/

@@ -4,6 +4,7 @@
 #include <vector>
 #include <string>
 #include <iostream>
+
 using namespace std;
 
 
@@ -78,13 +79,20 @@ void Joueur::choixFighters()
     }
 }
 
-void Joueur::recupPotion()
+void Joueur::affTeam()
+{
+    for(int i=0;i<team.size();i++)
+    {
+        cout<<i<<" : ";
+        team[i]->afficher();
+    }
+}
+
+/*void Joueur::recupPotion()
 {
     vector<Potion*> potions;
     potions.push_back(new Potion(0));
     potions.push_back(new Potion(1));
-    potions.push_back(new Potion(2));
-    potions.push_back(new Potion(3));
 
     int rep=-1;
     while(rep>=potions.size() || rep<0)
@@ -98,14 +106,102 @@ void Joueur::recupPotion()
         cin>>rep;
         if(rep<potions.size() && rep>=0)
         {
+            Potion* potChoisi=potions[rep];
             cout<<"Vous avez choisi : ";
-            potions[rep]->afficher();
+            potChoisi->afficher();
             cout<<"\n";
-            this->inventaire.push_back(potions[rep]);
+            this->inventaire.push_back(potChoisi);
         }
         else
         {
             cout<<"Erreur de saisie"<<endl;
         }
     }
+}*/
+
+void Joueur::commandes()
+{
+    string jeu;
+    jeu="null";
+    while(jeu=="null")
+    {
+        cout<<this->nom<<" c'est a toi !"<<"\na : attaquer\nd : se deplacer\nc : utiliser arme\ne : ouvrir inventaire"<<endl;
+        cin>>jeu;
+        if(jeu=="a")
+        {
+
+        }
+
+        if(jeu=="d")
+        {
+
+        }
+
+        if(jeu=="c")
+        {
+
+        }
+
+        /*if(jeu=="e")
+        {
+            if(inventaire.size()==0)
+            {
+                cout<<"Ton inventaire est vide"<<endl;
+                jeu="null";
+                break;
+            }
+            else
+            {
+                for(int i=0;i<inventaire.size();i++)
+                {
+                    inventaire[i]->afficher();
+                }
+            }
+        }*/
+    }
 }
+
+/*void Joueur::choisirPotion()
+{
+    int rep=-1;
+    while(rep>=inventaire.size() || rep<0)
+    {
+        cout<<"Inventaire"<<endl;
+        for(int i=0;i<inventaire.size();i++)
+        {
+            cout<<i<<" : ";
+            inventaire[i]->afficher();
+        }
+        cout<<"\nEntrez le numero d'une potion !"<<endl;
+        cin>>rep;
+        if(rep<inventaire.size() && rep>=0)
+        {
+            cout<<"Vous avez choisi : ";
+            inventaire[rep]->afficher();
+            cout<<"\n";
+            usePotion(inventaire[rep]->getType(), this);
+            inventaire.erase(inventaire.begin()+rep);
+        }
+        else
+        {
+            cout<<"Erreur de saisie"<<endl;
+        }
+    }
+}*/
+
+
+
+/*void joueurs::testVie(int i)
+{
+    if(this->selection[i]0>getVie()<=0)
+    {
+        this->getCombattantActif(i);
+    }
+}
+
+int joueurs::getCombattantActif(int i)
+{
+    i++;
+    cout<<"Votre combattant actif a changer et est "<< this->selection[i]->afficher()<<endl;
+    return i;
+}*/

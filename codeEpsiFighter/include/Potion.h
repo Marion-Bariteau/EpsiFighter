@@ -1,3 +1,4 @@
+#include "Fighter.h"
 #ifndef POTION_H
 #define POTION_H
 #include <vector>
@@ -15,7 +16,7 @@ class Potion
         int getType();
         void setType(int type);
 
-        void usePotion(int type);
+        void usePotion(int type, Fighter* user);
         void afficher();
 
     protected:

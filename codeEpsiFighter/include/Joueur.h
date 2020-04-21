@@ -20,7 +20,9 @@ class Joueur
         void afficher();
         void demande();
         void choixFighters();
+        void affTeam();
         void recupPotion();
+        void commandes();
 
     protected:
 

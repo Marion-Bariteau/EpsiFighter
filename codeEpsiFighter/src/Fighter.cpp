@@ -54,6 +54,11 @@ int Fighter::getHp()
     return this->hp;
 }
 
+void Fighter::setHp(int hp)
+{
+    this->hp=hp;
+}
+
 int Fighter::getHpMax()
 {
     return this->hpMax;
@@ -64,10 +69,46 @@ void Fighter::setHpMax(int hpMax)
     this->hpMax=hpMax;
 }
 
-void Fighter::setHp(int hp)
+int Fighter::getVie()
 {
-    this->hp=hp;
+    return this->vie;
 }
+
+void Fighter::setVie(bool vie)
+{
+    this->vie=vie;
+}
+
+int Fighter::getShield()
+{
+    return this->shield;
+}
+
+void Fighter::setShield(bool shield)
+{
+    this->shield=shield;
+}
+
+int Fighter::getAtt()
+{
+    return this->att;
+}
+
+void Fighter::setAtt(bool att)
+{
+    this->att=att;
+}
+
+int Fighter::getDef()
+{
+    return this->def;
+}
+
+void Fighter::setDef(bool def)
+{
+    this->def=def;
+}
+
 
 void Fighter::afficher()
 {
@@ -86,4 +127,34 @@ void Fighter::encaisser(int degats)
         degats-=degats*this->defense/100;
         this->hp-=degats;
     }
+    else
+    {
+        degats=0;
+        this->shield=0;
+    }
 }
+
+void Fighter::prendreVie()
+{
+    if(this->vie==1)
+    {
+        this->hp=this->hp+0,2*hpMax;
+        this->vie=0;
+    }
+}
+
+/*void Fighter::plusAtt()
+{
+    if(this->att==1)
+    {
+        this->attaque=this->attaque+0,1*this->attaque;
+    }
+}
+
+void Fighter::plusDef()
+{
+    if(this->def==1)
+    {
+        this->defense=this->defense+
+    }
+}*/

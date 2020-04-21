@@ -20,38 +20,40 @@
 	<string>
 	<iostream>
 
-1586187452 source:c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\epsifighter\codeepsifighter\main.cpp
+1586396289 source:c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\epsifighter\codeepsifighter\main.cpp
 	"Joueur.h"
 	"Fighter.h"
 	"Potion.h"
+	"Menu.h"
 	<cstdlib>
 	<windows.h>
 	<iostream>
 	<vector>
 	<string>
 
-1586182993 c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\epsifighter\codeepsifighter\include\joueur.h
+1586392560 c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\epsifighter\codeepsifighter\include\joueur.h
 	"Potion.h"
 	"Fighter.h"
 	<vector>
 	<string>
 	<iostream>
 
-1586175663 c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\epsifighter\codeepsifighter\include\fighter.h
+1586370360 c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\epsifighter\codeepsifighter\include\fighter.h
 	<string>
 	<iostream>
 
-1586187046 c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\epsifighter\codeepsifighter\include\potion.h
+1586354851 c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\epsifighter\codeepsifighter\include\potion.h
+	"Fighter.h"
 	<vector>
 	<string>
 	<iostream>
 
-1586179225 source:c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\epsifighter\codeepsifighter\src\fighter.cpp
+1586370380 source:c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\epsifighter\codeepsifighter\src\fighter.cpp
 	"Fighter.h"
 	<string>
 	<iostream>
 
-1586187032 source:c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\epsifighter\codeepsifighter\src\potion.cpp
+1586390222 source:c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\epsifighter\codeepsifighter\src\potion.cpp
 	"Potion.h"
 	"Fighter.h"
 	<string>
@@ -59,11 +61,19 @@
 	<cstdlib>
 	<ctime>
 
-1586187399 source:c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\epsifighter\codeepsifighter\src\joueur.cpp
+1586392586 source:c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\epsifighter\codeepsifighter\src\joueur.cpp
 	"Joueur.h"
 	"Potion.h"
 	"Fighter.h"
 	<vector>
 	<string>
+	<iostream>
+
+1586396218 c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\epsifighter\codeepsifighter\include\menu.h
+
+1586396568 source:c:\users\zblpr\onedrive\documents\epsi\cours\b1\projets\epsifighter\epsifighter\codeepsifighter\src\menu.cpp
+	"Menu.h"
+	<cstdlib>
+	<windows.h>
 	<iostream>
 

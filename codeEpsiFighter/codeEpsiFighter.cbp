@@ -36,10 +36,12 @@
 		</Compiler>
 		<Unit filename="include/Fighter.h" />
 		<Unit filename="include/Joueur.h" />
+		<Unit filename="include/Menu.h" />
 		<Unit filename="include/Potion.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Fighter.cpp" />
 		<Unit filename="src/Joueur.cpp" />
+		<Unit filename="src/Menu.cpp" />
 		<Unit filename="src/Potion.cpp" />
 		<Extensions>
 			<code_completion />

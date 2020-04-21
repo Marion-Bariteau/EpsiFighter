@@ -21,14 +21,20 @@ class Fighter
         void setHp(int hp);
         int getHpMax();
         void setHpMax(int hpMax);
+        int getVie();
+        void setVie(bool vie);
         int getShield();
-        void setShield(int shield);
+        void setShield(bool shield);
+        int getAtt();
+        void setAtt(bool att);
+        int getDef();
+        void setDef(bool def);
 
         void afficher();
         void frapper(Fighter* cible);
         void encaisser(int degats);
         void choix();
-
+        void prendreVie();
 
     protected:
 
@@ -38,7 +44,10 @@ class Fighter
         int defense;
         int hp;
         int hpMax;
+        bool vie;
         bool shield;
+        bool att;
+        bool def;
 
 };
 
